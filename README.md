@@ -8,23 +8,23 @@ Just another jQuery-like JavaScript framework with some ordinary tools.
 
 	.on('eventName, customEventName', callback)
 
-.fire('eventNameToFire')
+	.fire('eventNameToFire')
 
-.off('eventNameToRemove')
+	.off('eventNameToRemove')
 
-.val('new value / innerHTML')
+	.val('new value / innerHTML')
 
-.css('color: red' || { color: 'blue' })
+	.css('color: red' || { color: 'blue' })
 
-.attr('prob', 'value') || .attr({ prop: 'value' })
+	.attr('prob', 'value') || .attr({ prop: 'value' })
 
-.addClass('className') || .removeClass('className') || .hasClass('className')
+	.addClass('className') || .removeClass('className') || .hasClass('className')
 	
-W5.ajax({ url: 'http://url' }).then(function(response) { alert(JSON.stringify(response)); });
+	W5.ajax({ url: 'http://url' }).then(function(response) { alert(JSON.stringify(response)); });
 	
-W5('[data-placeholder]').autoempty();
+	W5('[data-placeholder]').autoempty();
 
-W5('[data-autoresize]').autoresize();
+	W5('[data-autoresize]').autoresize();
 
 And so on...
 
