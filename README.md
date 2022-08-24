@@ -4,9 +4,9 @@
 
 Just another jQuery-like JavaScript framework with some ordinary tools.
 
-W5("#id, .class, [prob], etc." || document || customObj)
+	W5("#id, .class, [prob], etc." || document || customObj)
 
-.on('eventName, customEventName', callback)
+	.on('eventName, customEventName', callback)
 
 .fire('eventNameToFire')
 
